@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Full-stack developer. Working in C# and Angular. Passion for architectures, clean code and patterns.
