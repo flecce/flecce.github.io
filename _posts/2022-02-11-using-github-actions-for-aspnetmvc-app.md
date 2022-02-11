@@ -1,1 +1,1 @@
-# Using Github Actions for Asp Net MVC apps
+# Using Github Actions for ASP.Net MVC apps
