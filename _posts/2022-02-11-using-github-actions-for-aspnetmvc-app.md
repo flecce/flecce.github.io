@@ -9,13 +9,13 @@ In this post I want to illustrate to create a pipeline to compile a ASP.Net MVC 
 
 ### Create a simple app
 
-![New MVC projec](file:///./assets/img_1.png "New MVC project")
+![New MVC project](/assets/img_1.png "New MVC project")
 
 ### Create publish profile
 
 To make this simple I've created a Visual Studio Folder profile:
 
-![New MVC projec](file:///./assets/img_2.png "New MVC project")
+![New MVC project](/assets/img_2.png "New MVC project")
 
 ### Create a new a GitHub Actions
 
