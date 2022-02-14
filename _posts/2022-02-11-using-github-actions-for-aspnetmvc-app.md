@@ -9,13 +9,13 @@ In this post I want to illustrate to create a pipeline to compile a ASP.Net MVC 
 
 ### Create a simple app
 
-![New MVC project](/assets/img_1.png "New MVC project")
+![New MVC project](assets/img_1.png "New MVC project")
 
 ### Create publish profile
 
 To make this simple I've created a Visual Studio Folder profile:
 
-![New MVC project](/assets/img_2.png "New MVC project")
+![New MVC project](assets/img_2.png "New MVC project")
 
 ### Create a new a GitHub Actions
 
@@ -46,7 +46,7 @@ jobs:
       - name: Build and Publish Web App
         run: |
           msbuild .\app.sln /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
-		  
+
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
