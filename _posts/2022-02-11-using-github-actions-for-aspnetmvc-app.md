@@ -1,6 +1,7 @@
-# Using Github Actions for ASP.Net MVC apps
+# Using Github Actions for ASP.Net MVC
 
 ## Intro
+
 In my current company I had to introduce a minimal approach to DevOps practices. The first step was to create pipeline to automate the release og an ASP.Net MVC app (.NET Framework) to staging environment.
 
 The repo code is on GitHub and I choose to try the GitHub Actions. In the past I had used the Azure DevOps tool, GitHub has some identical principles but others no.
