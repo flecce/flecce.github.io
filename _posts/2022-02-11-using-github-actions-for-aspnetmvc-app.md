@@ -9,13 +9,13 @@ In this post I want to illustrate to create a pipeline to compile a ASP.Net MVC 
 
 ### Create a simple app
 
-![New MVC project](assets/img_1.png "New MVC project")
+![New MVC project](./assets/img_1.png "New MVC project")
 
 ### Create publish profile
 
 To make this simple I've created a Visual Studio Folder profile:
 
-![New MVC project](assets/img_2.png "New MVC project")
+![New MVC project](./assets/img_2.png "New MVC project")
 
 ### Create a new a GitHub Actions
 
@@ -65,4 +65,4 @@ jobs:
 ```
 
 The pipeline has two jobs: a build and release job. It starts when a push is made on master branch.
-The build job runs on GitHub agent, the release agent runs on on-promise agent on staging service.
+The build job runs on GitHub agent, the release agent runs on on-promise agent on staging server.
