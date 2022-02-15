@@ -2,11 +2,7 @@
 
 ## Intro
 
-In my current company I had to introduce a minimal approach to DevOps practices. The first step was to create pipeline to automate the release og an ASP.Net MVC app (.NET Framework) to staging environment.
-
-The repo code is on GitHub and I choose to try the GitHub Actions. In the past I had used the Azure DevOps tool, GitHub has some identical principles but others no.
-
-In this post I want to illustrate to create a pipeline to compile a ASP.Net MVC app (but it is simililar for .NET Core projects).
+This post shows you how to create a build/release pipeline for a ASP.Net MVC (.NET Framework) application.
 
 ### Create a simple app
 
@@ -66,4 +62,12 @@ jobs:
 ```
 
 The pipeline has two jobs: a build and release job. It starts when a push is made on master branch.
-The build job runs on GitHub agent, the release agent runs on on-promise agent on staging server.
+The build job runs self-hosted runner on staging server.
+
+The first step of build job is the git checkout, if you do not specify ref parameter the checkout is on default branch (in my case is master branch).
+After checkout the pipeline setup MSBuild, restore nuget packages and publish the app (with previous created folder profile).
+
+The last step is the publish of the artifacts (you can add path property to specify which files you want to upload).
+
+The release job starts when the build step finish succesfully. The only step is the downloading artifacts and with path
+property (not in this example) you can specify the download path.
