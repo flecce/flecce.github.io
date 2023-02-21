@@ -1,6 +1,5 @@
-<code>Italiano</code> <code>Remote Working</code>
-
 # Remote Working: prime impressioni e suggerimenti
+<code>Italiano</code> <code>Remote Working</code>
 
 1. Intro
 2. L'azienda
