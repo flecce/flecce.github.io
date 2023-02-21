@@ -1,1 +1,1 @@
-Full-stack developer. Working in C# and Angular. Passion for architectures, clean code and patterns.
+Full-stack developer. Full-stack developer. Working in .NET Framework, C#, Sql Server, MySQL, Angular, Typescript.
