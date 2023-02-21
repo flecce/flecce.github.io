@@ -1,6 +1,5 @@
-<code>English</code> <code>Tech</code>
-
 # Using Github Actions for ASP.Net MVC
+<code>English</code> <code>Tech</code>
 
 ## Intro
 
