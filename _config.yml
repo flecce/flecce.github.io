@@ -39,3 +39,5 @@ defaults:
       type: post
     values:
       tags: Other
+
+google_analytics: "G-RH07R1YKGF"
