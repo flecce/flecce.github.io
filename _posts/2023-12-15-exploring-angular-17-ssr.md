@@ -46,7 +46,7 @@ Angular offers the possibility to pre-render some page at build time.
 
 I encountered challenges with the build process, as it is not adequately described in the Angular documentation. When compiling your SSR app, the builder creates two folders, each with distinct purposes. Here are my considerations:
 - **browser**: contains the classic CSR app and it used by server side to provide static files
-- **server**: contains all script of which needs to pre-render the first pages called by client. It is similar to technologies like ASP.NET WebForms, where HTML/CSS is rendered by the server.
+- **server**: contains all scripts of which needs to pre-render the first pages called by client. It is similar to technologies like ASP.NET WebForms, where HTML/CSS is rendered by the server.
 
 ## Demo
 
