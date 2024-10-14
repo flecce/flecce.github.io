@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="stylesheet" href="/assets/css/cookieconsent.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/cookieconsent.css" media="print" onload="this.media='all'">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include analytics.html -%}
@@ -19,6 +19,9 @@
   <script type="text/javascript" src="/js/highlightjs/languages/plaintext.min.js"></script>
   <script type="text/javascript" src="/js/highlightjs/languages/powershell.min.js"></script>
   <script type="text/javascript" src="/js/highlightjs/languages/tsql.min.js"></script>
+
+  <script defer src="/css/cookieconsent.js"></script>
+  <script defer src="/js/cookieconsent-init.js"></script>
 
   <script type="text/javascript"> hljs.highlightAll(); </script>
   <!-- end highlight.js support -->
